@@ -2,11 +2,11 @@ ffmpeg static binaries for Mac OSX and Linux (Lambda) ~~and Windows~~
 
 ## Why another package?
 
-This package should work locally on Mac and in Vercel/Lambda linux deployments
+This package should work locally on Mac and in Vercel/Lambda linux deployments with node20
 - existing packages either didn't include the binary in the repo itself (downloaded the binary upon install which didn't work with Vercel)
-- and/or the binary was not working in Lambda env (crashing due to `aom` codec)
+- and/or the binary was not working in Lambda env (amazon linux 2023 is used for node 20)
 
-FFMPEG v6
+
 
 ## Installation
 
