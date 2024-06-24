@@ -1,0 +1,24 @@
+{
+  "name": "ffmpeg-static-lambda",
+  "version": "1.0.0",
+  "description": "ffmpeg static binaries for Mac OSX and Linux (Lambda)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js",
+    "publish:public": "npm publish  --access public",
+    "publish:dry:run": "npm publish --dry-run"
+  },
+  "keywords": [
+    "ffmpeg",
+    "static",
+    "library",
+    "binary",
+    "binaries",
+    "mac",
+    "linux"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
